@@ -84,7 +84,7 @@ ul{
 	-webkit-background-clip: text;
 	background-clip: text;
 	background-image: linear-gradient(90deg, rgba(186,171,143,1) 0%, rgba(112,100,76,1) 100%);
-  font-size:26px;
+  font-size:28px;
   font-weight: 300;
   font-size: auto;
   margin: 0; /* Обнуляем значение отступов */
@@ -109,6 +109,9 @@ ul{
   justify-content: space-between;
   justify-content: flex-start;
   align-items: center;
+}
+.menu__li:active{
+  background-color: #000;
 }
 
 /* Настройки карточек с имг */
@@ -154,7 +157,7 @@ ul{
   background: rgba(0,0,0, 0.3);
 }
 .footer_text{
-  margin:auto 60px;
+  margin:auto 50px;
   font-size:18px;
 }
 #priv{

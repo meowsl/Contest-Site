@@ -88,7 +88,7 @@
 	background-color:#e5e6e8;
 	border-radius:17px;
 	border:1px solid #040a14;
-	display:inline-block;
+	display:flex;
 	cursor:pointer;
 	color:#000000;
 	padding:8px 43px;
@@ -98,8 +98,13 @@
     margin:15px auto;
     opacity: .7;
     font-size:auto;
-    width:80%;
+    width:20%;
     height:auto;
+    text-align:center;
+    justify-content: center; 
+}
+.text_btn{
+    display:flex;
 }
 .card_image_qsl{
     width:40%;
@@ -246,6 +251,7 @@ iframe{
     width:20%;
     height:auto;
     display:flex;
+    flex-direction: column;
     justify-content:center;
     border:2px solid;
     border-radius: 20px;
@@ -257,16 +263,15 @@ iframe{
 .donat{
     display:flex;
     flex-direction:column;
-    justify-content:center;
+    justify-content:space-evenly;
     align-items:center;
-    margin-top:50px auto;
+
 }
 .inputs{
     display:flex;
     flex-direction: column;
     max-width: 40%;
     justify-content: center;
-    margin: auto;
 }
 input{
     margin-left:10px;
@@ -274,13 +279,24 @@ input{
     width:200px;
 }
 .btntopay{
-    width:40%;
+    width:70%;
+    margin:auto;
+    margin-top:20px;
 }
 .paypalimg{
-    width:40%;
+    width:80%;
     height:auto;
     display:flex;
     align-items: center;
+    margin:auto;
+}
+#item_number{
+    margin:auto;
+    width:80%;
+    margin-top:15px;
+}
+.text_call{
+    font-size:18px;
     margin:auto;
 }
 
