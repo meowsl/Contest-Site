@@ -64,14 +64,9 @@
     box-shadow:0 0 50px 10px rgba(107, 107, 107, 0.7);
 }
 .qsl_text{
-    margin:30px;
+    margin:30px 25px;
 }
-.qsl_last_text{
-    max-height:50px;
-    max-width:100%;
-    margin:30px auto;
-    margin-top:0;
-}
+
 .address{
     justify-content: space-evenly;
     text-align: center;
@@ -168,7 +163,7 @@ iframe{
     box-shadow:0 0 50px 10px rgba(107, 107, 107, 0.7);
 }
 .text_bio{
-    margin:30px;
+    margin:30px auto;
 }
 .mark{
     text-decoration:underline;
